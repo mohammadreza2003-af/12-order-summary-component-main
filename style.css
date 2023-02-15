@@ -4,18 +4,20 @@
   box-sizing: border-box;
 }
 body {
-  min-height: 95vh;
-}
-main {
   background-image: url(images/pattern-background-desktop.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .box {
+  margin: 64px 256px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   background-color: red;
 }
