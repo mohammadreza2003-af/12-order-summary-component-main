@@ -6,10 +6,10 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   background-image: url(images/pattern-background-desktop.svg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
   font-size: 16px;
+  min-height: 95vh;
 }
 
 .container {
@@ -73,15 +73,26 @@ span {
   flex-direction: column;
   gap: 24px;
 }
+.btn,
+.btn-w,
+.btn-change {
+  transition: all 0.3s;
+}
 .btn {
+  transition: all 0.3s;
   border-radius: 12px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   padding: 12px 24px;
-  background-color: hsl(245, 75%, 52%);
 }
 .btn:is(:link, :visited) {
+  background-color: hsl(245, 75%, 52%);
   color: hsl(225, 100%, 98%);
   text-decoration: none;
+}
+.btn:is(:hover, :active) {
+  color: hsl(225, 100%, 98%);
+  text-decoration: none;
+  background-color: hsl(245, 83%, 60%);
 }
 .btn-w {
   margin-bottom: 24px;
@@ -97,4 +108,7 @@ span {
   color: hsl(245, 75%, 52%);
   font-size: 14px;
   font-weight: 500;
+}
+.btn-change:is(:hover, :active) {
+  text-decoration: none;
 }
