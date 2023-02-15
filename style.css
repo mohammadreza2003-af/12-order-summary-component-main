@@ -13,14 +13,23 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .box {
+  text-align: center;
+  justify-content: center;
   margin: 64px 256px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  background-color: red;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 .hero-img {
-  width: 50%;
+  width: 60%;
 }
