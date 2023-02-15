@@ -49,3 +49,8 @@ body {
 .dis-text {
   font-size: 16px;
 }
+.add-cart-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
