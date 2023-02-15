@@ -48,19 +48,24 @@ body {
 }
 .dis-text {
   font-size: 16px;
+  color: hsl(224, 23%, 55%);
 }
 .add-cart-box {
   display: flex;
   align-items: center;
-  gap: 22px;
   justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  padding: 12px 24px;
+  border-radius: 12px;
 }
 .s-a-1 {
-  gap: 16px;
+  gap: 12px;
   display: flex;
   align-items: center;
 }
 span {
+  font-size: 16px;
+  font-weight: 500;
   display: block;
 }
 .btn-end {
@@ -73,4 +78,15 @@ span {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   padding: 12px 24px;
   background-color: hsl(245, 75%, 52%);
+}
+.btn:is(:link, :visited) {
+  color: hsl(225, 100%, 98%);
+  text-decoration: none;
+}
+.btn-w {
+  margin-bottom: 24px;
+}
+.btn-w:is(:link, :visited) {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
 }
