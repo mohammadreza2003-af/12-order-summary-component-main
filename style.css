@@ -52,5 +52,14 @@ body {
 .add-cart-box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 22px;
+  justify-content: space-between;
+}
+.s-a-1 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+span {
+  display: block;
 }
