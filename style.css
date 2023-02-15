@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 95vh;
+}
+main {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
