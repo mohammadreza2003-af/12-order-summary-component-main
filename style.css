@@ -21,3 +21,6 @@ body {
   gap: 24px;
   background-color: red;
 }
+.hero-img {
+  width: 50%;
+}
