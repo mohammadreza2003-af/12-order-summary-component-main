@@ -69,6 +69,8 @@ span {
   gap: 24px;
 }
 .btn {
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   padding: 12px 24px;
-  background-color: ;
+  background-color: hsl(245, 75%, 52%);
 }
