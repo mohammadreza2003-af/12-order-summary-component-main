@@ -63,3 +63,12 @@ body {
 span {
   display: block;
 }
+.btn-end {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.btn {
+  padding: 12px 24px;
+  background-color: ;
+}
