@@ -90,3 +90,11 @@ span {
   color: hsl(224, 23%, 55%);
   text-decoration: none;
 }
+.btn-w:is(:hover, :active) {
+  color: hsl(245, 75%, 52%);
+}
+.btn-change:is(:link, :visited) {
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: 500;
+}
